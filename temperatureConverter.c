@@ -11,6 +11,8 @@ int main()
 
     fahr = min; // at first, fahrenheit's value is 0
 
+    printf("Celcius\tFahrenheit\n"); //labels
+
     while (fahr <= max)
     {
         /* while the value of fahrenheit is less than or equal to the maximum (which is set to 300),
@@ -23,7 +25,7 @@ int main()
         Since 5 and 9 are integers. 5/9 would be truncated to zero and so all the Celsius temperatures
         would be reported as zero." -Book
          */
-        printf("%d\t%d\n", fahr, celcius); // causes the values of the two integers fahr and celsius to be printed, with a tab (\t) between them
+        printf("%3d\t%6d\n", fahr, celcius); // causes the values of the two integers fahr and celsius to be printed, with a tab (\t) between them
         fahr = fahr + step;
     }
 
