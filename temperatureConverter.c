@@ -17,7 +17,13 @@ int main()
          it's going to keep converting the fahrenheit value to celcius and also skip by 20
         */
         celcius = 5 * (fahr - 32) / 9;
-        printf("%d\t%d\n", fahr, celcius);
+        /*
+        "The reason for multiplying by 5 and dividing by 9 instead of just multiplying by 5/9 is that in
+        C, as in many other languages, integer division truncates: any fractional part is discarded.
+        Since 5 and 9 are integers. 5/9 would be truncated to zero and so all the Celsius temperatures
+        would be reported as zero." -Book
+         */
+        printf("%d\t%d\n", fahr, celcius); // causes the values of the two integers fahr and celsius to be printed, with a tab (\t) between them
         fahr = fahr + step;
     }
 
