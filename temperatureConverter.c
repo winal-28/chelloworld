@@ -1,9 +1,9 @@
 /* 
 Topics covered:
 
-1.2 - Variables and Arithmetic Expressions
-1.3 - The for statement
-1.4 - Symbolic Constants
+Section 1.2 - Variables and Arithmetic Expressions
+Section 1.3 - The for statement
+Section 1.4 - Symbolic Constants
 
 */
 
