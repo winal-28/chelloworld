@@ -1,3 +1,12 @@
+/* 
+Topics covered:
+
+1.2 - Variables and Arithmetic Expressions
+1.3 - The for statement
+1.4 - Symbolic Constants
+
+*/
+
 #include <stdio.h>
 
 #define MIN 0
