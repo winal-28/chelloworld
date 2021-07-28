@@ -13,7 +13,7 @@ int main()
 
     printf("Celcius\tFahrenheit\n"); //labels
 
-    while (fahr <= max)
+    for (fahr = min; fahr <= max; fahr++)
     {
         /* while the value of fahrenheit is less than or equal to the maximum (which is set to 300),
          it's going to keep converting the fahrenheit value to celcius and also skip by 20
