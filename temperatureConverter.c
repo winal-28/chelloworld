@@ -27,4 +27,4 @@ int main()
     return 0;
 }
 
-// compile by running: gcc -Wall -g -c temperatureConverter.c && gcc -o temperatureConverter temperatureConverter.o -lm
+// gcc temperatureConverter.c -o temperatureConverter.o -lm -Werror -Wall -Wextra
