@@ -14,4 +14,4 @@ int main()
     }
 }
 
-// gcc -Wall -g -c charInputOutput.c && gcc -o charInputOutput charInputOutput.o -lm
+// gcc charInputOutput.c -o charInputOutput.o -lm -Werror -Wall -Wextra
